@@ -13,6 +13,7 @@
 		5C1A90D828C928B700101E3F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5C1A90D628C928B700101E3F /* Main.storyboard */; };
 		5C1A90DA28C928B800101E3F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5C1A90D928C928B800101E3F /* Assets.xcassets */; };
 		5C1A90DD28C928B800101E3F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5C1A90DB28C928B800101E3F /* LaunchScreen.storyboard */; };
+		5C1A90E528C936AB00101E3F /* CryptoCurrencyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C1A90E428C936AB00101E3F /* CryptoCurrencyViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		5C1A90D928C928B800101E3F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5C1A90DC28C928B800101E3F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5C1A90DE28C928B800101E3F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5C1A90E428C936AB00101E3F /* CryptoCurrencyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoCurrencyViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				5C1A90D028C928B700101E3F /* AppDelegate.swift */,
 				5C1A90D228C928B700101E3F /* SceneDelegate.swift */,
 				5C1A90D428C928B700101E3F /* ViewController.swift */,
+				5C1A90E428C936AB00101E3F /* CryptoCurrencyViewController.swift */,
 				5C1A90D628C928B700101E3F /* Main.storyboard */,
 				5C1A90D928C928B800101E3F /* Assets.xcassets */,
 				5C1A90DB28C928B800101E3F /* LaunchScreen.storyboard */,
@@ -138,6 +141,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5C1A90E528C936AB00101E3F /* CryptoCurrencyViewController.swift in Sources */,
 				5C1A90D528C928B700101E3F /* ViewController.swift in Sources */,
 				5C1A90D128C928B700101E3F /* AppDelegate.swift in Sources */,
 				5C1A90D328C928B700101E3F /* SceneDelegate.swift in Sources */,
