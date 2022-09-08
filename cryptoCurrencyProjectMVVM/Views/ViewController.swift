@@ -10,19 +10,14 @@ import UIKit
 class ViewController: UIViewController,UITableViewDelegate,UITableViewDataSource {
 
     @IBOutlet weak var tableView: UITableView!
-    
     private var cryptoListViewModel : CryptoListViewModel!
    
     override func viewDidLoad() {
         super.viewDidLoad()
-
-
         self.tableView.delegate = self
         self.tableView.dataSource = self
-        
-        
+       
         getData()
-
     }
     func getData() {
         let url = URL(string: "https://raw.githubusercontent.com/atilsamancioglu/K21-JSONDataSet/master/crypto.json")!
@@ -52,7 +47,6 @@ class ViewController: UIViewController,UITableViewDelegate,UITableViewDataSource
          
          cell.priceText.text = cryptoViewModel.name
          cell.currencyText.text = cryptoViewModel.price
-
          return cell
      }
     
