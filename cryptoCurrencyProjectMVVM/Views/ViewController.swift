@@ -18,6 +18,16 @@ class ViewController: UIViewController,UITableViewDelegate,UITableViewDataSource
         tableView.delegate = self
         tableView.dataSource = self
         
+        let url = URL(string: "https://raw.githubusercontent.com/atilsamancioglu/K21-JSONDataSet/master/crypto.json")!
+        
+        WebService().downloadCurrencies(url: url) { (cryptos) in
+            
+            if let cryptos = cryptos {
+              
+            }
+        }
+        
+  
         
         
     }

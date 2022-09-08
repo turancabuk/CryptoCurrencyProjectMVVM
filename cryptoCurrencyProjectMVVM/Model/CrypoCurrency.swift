@@ -8,11 +8,10 @@
 import Foundation
 
 
-struct CryptoCurrency {
     
 struct CryptoCurrency : Decodable {
         
-        var currency : String
-        var price : String
-    }
+        let currency : String
+        let price : String
+    
 }
