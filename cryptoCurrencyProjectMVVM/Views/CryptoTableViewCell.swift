@@ -7,11 +7,11 @@
 
 import UIKit
 
-class CryptoCurrencyViewController: UITableViewCell {
+class CryptoTableViewCell: UITableViewCell {
 
-    @IBOutlet weak var cryptoCurrencyLabel: UILabel!
-    @IBOutlet weak var cryptoPriceLabel: UILabel!
-    
+
+    @IBOutlet weak var currencyText: UILabel!
+    @IBOutlet weak var priceText: UILabel!
     
     
     override func awakeFromNib() {
